@@ -65,7 +65,11 @@ public class connection {
                 break;
             } catch (Exception e) {
                 e.printStackTrace();
-                server.connect(true);
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException interruptedException) {
+                    interruptedException.printStackTrace();
+                }
                 //refresh();
                 continue;
             }

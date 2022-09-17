@@ -14,5 +14,4 @@ public class Fragment1 extends Fragment {
 
         return root;
     }
-
 }

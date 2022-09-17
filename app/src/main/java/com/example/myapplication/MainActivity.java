@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity{
                                 auto_order();
                             if(TestService.fr3)
                             {
-                                connection.sendData((TestService.id + "|zakaz_get7|" + TestService.region + "|" + TestService.avto_class+"|"+ RAYON+"***").getBytes());
+                                connection.sendData((TestService.id + "|zakaz_get8|" + TestService.region + "|" + TestService.avto_class+"|"+ RAYON+"***").getBytes());
                                 continue;
                             }
 
@@ -237,7 +237,7 @@ public class MainActivity extends AppCompatActivity{
                 auto_order();
             if(TestService.fr3)
             {
-                connection.sendData((TestService.id + "|zakaz_get7|" + TestService.region + "|" + TestService.avto_class+"|"+ RAYON+"***").getBytes());
+                connection.sendData((TestService.id + "|zakaz_get8|" + TestService.region + "|" + TestService.avto_class+"|"+ RAYON+"***").getBytes());
                 return true;
             }
 

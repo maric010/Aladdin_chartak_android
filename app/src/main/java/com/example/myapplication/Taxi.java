@@ -218,8 +218,11 @@ public class Taxi {
                     splashActivity.th.startActivity(intent);
                     return;
                 case "ORDERS":
-                    Taxi.orders_from_server=command.replace(split[0]+"/","");
-                    Fragment3.refresh();
+                    if(split[1].equalsIgnoreCase("!"+TestService.region+"!")){
+                        Taxi.orders_from_server=command.replace("ORDERS/"+split[1]+"/","");
+                        Fragment3.refresh();
+                    }
+
                     return;
                 case "auto_order_accepted":
                     MainActivity.thisactivity.runOnUiThread(new Runnable() {

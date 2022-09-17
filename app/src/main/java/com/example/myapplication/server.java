@@ -27,7 +27,7 @@ public class server {
                         connection.mSocket = new Socket();
                         int timeout = 3000;
                         connection.mSocket.connect(sockAdr, timeout);
-                        connection.mSocket.setSoTimeout(3000);
+                        connection.mSocket.setSoTimeout(5000);
                         System.out.println("connected");
                         break;
                     } catch (Exception e) {
