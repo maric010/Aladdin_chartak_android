@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#949395</color>
+    <color name="purple_500">#4C3768</color>
+    <color name="purple_700">#272727</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="sariq">#FF0</color>
+
+    <color name="cos">#E8E8E8</color>
+
+    <color name="fr4">#B0C4FB</color>
+
+    <color name="textview3">#085C4F</color>
+    <color name="button_13">#124A0A</color>
+    <color name="zakaz_info">#B1AEAE</color>
+    <color name="nastroyka">#E5E6E8</color>
+
+    <color name="finishbg">#50B189</color>
+    <color name="tak">#CED9FA</color>
+    <color name="b17">#70A4F3</color>
+    <color name="taks">#E4E4E4</color>
+    <color name="bg">#124A0A</color>
+    <color name="button10">#124A0A</color>
+    <color name="ne_znayu">#1B4A8F</color>
+
+
+    <color name="B1AEAE">#B1AEAE</color>
+    <color name="B0C4FB">#B0C4FB</color>
+    <color name="fr9">#D1D3D6</color>
+    <color name="fr12">#E8E8E8</color>
+    <color name="lccos">#D8D9DA</color>
+
+    <color name="black">#000000</color>
+    <color name="zakaz">#B1B1B1</color>
+    <color name="scroll">#D7D8DA</color>
+    <color name="imgb">#DCDCDC</color>
+    <color name="blue">#535B67</color>
+    <color name="green">#035A07</color>
+
+
+
+</resources>

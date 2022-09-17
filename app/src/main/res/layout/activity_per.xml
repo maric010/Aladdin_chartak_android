@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/send_sms_per"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="send_sms"
+            android:text="SEND_SMS"
+            />
+        <Button
+            android:id="@+id/ACCESS_FINE_LOCATION"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACCESS_FINE_LOCATION"
+            android:onClick="ACCESS_FINE_LOCATION"
+            />
+        <Button
+            android:id="@+id/ACCESS_BACKGROUND_LOCATION"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACCESS_BACKGROUND_LOCATION"
+            android:onClick="ACCESS_BACKGROUND_LOCATION"
+            />
+        <Button
+            android:id="@+id/CALL_PHONE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CALL_PHONE"
+            android:onClick="CALL_PHONE"
+            />
+        <Button
+            android:id="@+id/POVERX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="POVERX"
+            android:onClick="POVERX"
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
